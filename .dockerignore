@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+memory_store.jsonl
+data/*.db
+eval/results_*.csv
+eval/failure_report.md

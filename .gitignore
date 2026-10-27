@@ -1,0 +1,19 @@
+# 密钥与本地配置（不要提交真实 .env）
+.env
+.env.local
+.env.*
+!.env.example
+
+# 虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 运行时本地记忆（含本地对话，不提交）
+memory_store.jsonl
+
+# 评测生成物（可重跑生成）
+eval/results_*.csv
+eval/failure_report.md

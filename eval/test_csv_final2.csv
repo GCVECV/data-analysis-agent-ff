@@ -1,0 +1,5 @@
+﻿id,difficulty,query,ok,must_call_hit,must_contain_hit,expected_hit,judge_score,tool_success_rate,avg_compression_ratio,steps,llm_calls,prompt_tokens,completion_tokens,elapsed_s
+t21,hard,分析销量与单价的关系并画散点图，说明结论,True,True,True,True,,1.0,1.02,4,21,18264,2204,25.59
+t22,easy,线上和线下渠道的平均单价哪个更高？,True,True,True,True,,1.0,1.01,3,8,6940,1360,12.18
+t23,medium,各品类销售额占比如何？哪个品类占比最大？,True,True,True,True,,1.0,0.9,4,23,20698,2193,26.95
+t24,easy,哪个地区的平均单价最高？,True,True,True,True,,1.0,0.92,4,22,19258,2053,25.47

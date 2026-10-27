@@ -1,0 +1,4 @@
+{"id":"t21","difficulty":"hard","query":"分析销量与单价的关系并画散点图，说明结论","must_call":["plot_chart"],"expected":["散点"],"judge":"含散点图并说明量价关系"}
+{"id":"t22","difficulty":"easy","query":"线上和线下渠道的平均单价哪个更高？","must_call":["group_aggregate"],"expected":["线上"],"judge":"指出平均单价更高的渠道"}
+{"id":"t23","difficulty":"medium","query":"各品类销售额占比如何？哪个品类占比最大？","must_call":["group_aggregate"],"expected":["美妆"],"judge":"给出占比结论并指出最大品类"}
+{"id":"t24","difficulty":"easy","query":"哪个地区的平均单价最高？","must_call":["group_aggregate"],"expected":["华东"],"judge":"指出平均单价最高的地区"}
